@@ -45,7 +45,7 @@ const App = () => {
   
   return (
     <div className='bg-red-200'>
-      hello master
+      hello alan alex
     </div>
   )
 }
