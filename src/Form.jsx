@@ -52,18 +52,22 @@ const Form = ({ onSubmit }) => {
             <form >
 
                 <div className="flex  gap-5">
-                    <div className="flex flex-col">
-                        <label>director</label>
-                        <input ref={refDirector} name="director" value={data.director} className="border-2 " type="text"
-                            onChange={handleChange} />
-                    </div>
 
                     <div className="flex flex-col">
-                        <label>movie name</label>
+                        <label>director name</label>
                         <input ref={refname} name="name" value={data.name} className="border-2 " type="text"
                             onChange={handleChange}
                         />
                     </div>
+
+
+
+                    <div className="flex flex-col">
+                        <label>movie name</label>
+                        <input ref={refDirector} name="director" value={data.director} className="border-2 " type="text"
+                            onChange={handleChange} />
+                    </div>
+
 
                     <button className="border-2 bg-blue-200 p-1 mt-4"
                         onClick={handleSubmit}>

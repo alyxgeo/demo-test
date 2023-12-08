@@ -21,10 +21,10 @@ const App = () => {
   }
 
   return (
-    <>
+    <div className="px-7 py-6">
       <Form onSubmit={handleSubmit} />
       <Table rows={rows} deleteRow={handleDelete} />
-    </>
+    </div>
   )
 }
 
