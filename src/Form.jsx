@@ -45,12 +45,9 @@ const Form = ({ onSubmit }) => {
 
     }
 
-
-
     return (
         <>
             <form >
-
                 <div className="flex  gap-5">
 
                     <div className="flex flex-col">
@@ -59,8 +56,6 @@ const Form = ({ onSubmit }) => {
                             onChange={handleChange}
                         />
                     </div>
-
-
 
                     <div className="flex flex-col">
                         <label>movie name</label>
@@ -76,14 +71,8 @@ const Form = ({ onSubmit }) => {
 
                 </div>
 
-
             </form>
-
-
         </>
-
-
-
 
     )
 }
